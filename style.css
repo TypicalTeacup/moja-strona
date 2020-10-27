@@ -1,0 +1,49 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #402032;
+	margin: 0;
+	height: 100%
+}
+
+.i0{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.i1{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.d1{
+	display: block;
+	float: left;
+	height: 50%;
+	width: 50%;
+}
+
+.icon-attention-circled{
+	cursor: pointer;
+	font-size: 100px;
+	color: #706417;
+}
+.icon-attention-circled:hover{
+	color: #928639;
+}
+
+.icon-angle-circled-left{
+	cursor: pointer;
+	font-size: 100px;
+	color: #706417;
+}
+.icon-angle-circled-left:hover{
+	color: #928639;
+}
