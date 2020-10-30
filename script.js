@@ -26,9 +26,6 @@ function start(){
 function podziel(id){
 	var div_html = [];
 	
-	ruch[licznik] = id;
-	licznik++;
-	
 	if (licznik == 2137 && zdjecie == "img/papiez.jpg"){
 		papa();
 	}
