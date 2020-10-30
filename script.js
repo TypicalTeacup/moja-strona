@@ -9,6 +9,38 @@ var zdjecie = "img/reksio.png";
 var licznik = 0;
 var ruch = [];
 
+function cofnij(){
+	if (licznik>0){
+		licznik--;
+		$("#div"+ruch[licznik]).html('<img src="'+zdjecie+'" class="i1" onclick=podziel("'+ruch[licznik]+'") />');
+	}
+}
+
+function papa(){
+	zdjecie = "img/papiez2.gif";
+	$(".i1").attr("src", zdjecie);
+}
+
+function zmien(){
+	if (zdjecie == "img/dis.jpg"){
+		zdjecie = "img/reksio.png";
+		$("title").html("Reksio!");
+	}
+	else if (zdjecie == "img/reksio.png"){
+		zdjecie = "img/herbata.png";
+		$("title").html("Ave Herbata!");
+	}
+	else if(zdjecie == "img/herbata.png"){
+		zdjecie = "img/papiez.jpg";
+		$("title").html("Papież!");
+	}
+	else{
+		zdjecie = "img/dis.jpg";
+		$("title").html("Jebać disa!");
+	}
+	$(".i1").attr("src", zdjecie);
+}
+
 function start(){
 	height = parseInt($("body").css("height"));
 	width = parseInt($("body").css("width"));
