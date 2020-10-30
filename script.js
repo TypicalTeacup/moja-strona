@@ -6,6 +6,9 @@ var w;
 
 var zdjecie = "img/reksio.png";
 
+var licznik = 0;
+var ruch = [];
+
 function start(){
 	height = parseInt($("body").css("height"));
 	width = parseInt($("body").css("width"));
@@ -25,6 +28,9 @@ function start(){
 
 function podziel(id){
 	var div_html = [];
+	
+	ruch[licznik] = id;
+	licznik++;
 	
 	if (licznik == 2137 && zdjecie == "img/papiez.jpg"){
 		papa();
