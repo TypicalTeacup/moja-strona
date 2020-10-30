@@ -4,7 +4,7 @@ var height;
 var h;
 var w;
 
-var zdjecie = "img/herbata.png";
+var zdjecie = "img/reksio.png";
 
 var licznik = 0;
 var ruch = [];
@@ -23,6 +23,10 @@ function papa(){
 
 function zmien(){
 	if (zdjecie == "img/dis.jpg"){
+		zdjecie = "img/reksio.png";
+		$("title").html("Reksio!");
+	}
+	else if (zdjecie == "img/reksio.png"){
 		zdjecie = "img/herbata.png";
 		$("title").html("Ave Herbata!");
 	}
