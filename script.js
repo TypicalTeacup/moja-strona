@@ -61,6 +61,13 @@ function start(){
 function podziel(id){
 	var div_html = [];
 	
+	ruch[licznik] = id;
+	licznik++;
+	
+	if (licznik == 2137 && zdjecie == "img/papiez.jpg"){
+		papa();
+	}
+	
 	for (i=0;i<4;i++){
 		div_html[i] = '<div id="div'+id+i+'" class="d1" ><img src="'+zdjecie+'" class="i1" onclick=podziel("'+id+i+'") /></div>';
 	}
