@@ -4,7 +4,7 @@ var height;
 var h;
 var w;
 
-var zdjecie = "img/reksio.png";
+var zdjecie = "img/herbata.png";
 
 var licznik = 0;
 var ruch = [];
