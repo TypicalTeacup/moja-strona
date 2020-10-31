@@ -41,7 +41,6 @@ function zmien(){
 	$(".i1").attr("src", zdjecie);
 }
 
->>>>>>> ba73086279d43f2f8e2e41fa3f1ed24d9b33f655
 function start(){
 	height = parseInt($("body").css("height"));
 	width = parseInt($("body").css("width"));
