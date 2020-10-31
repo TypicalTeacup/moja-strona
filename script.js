@@ -24,7 +24,7 @@ function papa(){
 function zmien(){
 	if (zdjecie == "img/dis.jpg"){
 		zdjecie = "img/reksio.png";
-		$("title").html("Reksio!");
+		$("title").html("łu matku!");
 	}
 	else if (zdjecie == "img/reksio.png"){
 		zdjecie = "img/herbata.png";
