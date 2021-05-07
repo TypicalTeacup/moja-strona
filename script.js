@@ -22,7 +22,7 @@ function papa(){
 }
 
 function zmien(){
-	if (zdjecie == "img/dis.jpg"){
+	if (zdjecie == "img/jajo.jpg"){
 		zdjecie = "img/reksio.png";
 		$("title").html("łu matku!");
 	}
