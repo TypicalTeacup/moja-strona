@@ -16,11 +16,6 @@ function cofnij(){
 	}
 }
 
-function papa(){
-	zdjecie = "img/papiez2.gif";
-	$(".i1").attr("src", zdjecie);
-}
-
 function zmien(){
 	if (zdjecie == "img/jajo.jpg"){
 		zdjecie = "img/reksio.png";
@@ -63,10 +58,6 @@ function podziel(id){
 	
 	ruch[licznik] = id;
 	licznik++;
-	
-	if (licznik == 2137 && zdjecie == "img/papiez.jpg"){
-		papa();
-	}
 	
 	for (i=0;i<4;i++){
 		div_html[i] = '<div id="div'+id+i+'" class="d1" ><img src="'+zdjecie+'" class="i1" onclick=podziel("'+id+i+'") /></div>';
