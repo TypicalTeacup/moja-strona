@@ -31,12 +31,12 @@ function zmien(){
 		$("title").html("Ave Herbata!");
 	}
 	else if(zdjecie == "img/herbata.png"){
-		zdjecie = "img/papiez.jpg";
-		$("title").html("Papież!");
+		zdjecie = "img/opona.jpg";
+		$("title").html("O Opona!");
 	}
 	else{
-		zdjecie = "img/dis.jpg";
-		$("title").html("Jebać disa!");
+		zdjecie = "img/jajo.jpg";
+		$("title").html("Uwaga, Jajo!");
 	}
 	$(".i1").attr("src", zdjecie);
 }
