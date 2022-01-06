@@ -17,7 +17,7 @@ function cofnij(){
 }
 
 function zmien(){
-	if (zdjecie == "img/jajo.jpg"){
+	if (zdjecie == "img/dis.jpg"){
 		zdjecie = "img/reksio.png";
 		$("title").html("łu matku!");
 	}
@@ -29,9 +29,29 @@ function zmien(){
 		zdjecie = "img/opona.jpg";
 		$("title").html("O Opona!");
 	}
+	else if(zdjecie == "img/opona.jpg"){
+		zdjecie = "img/papiez.jpg";
+		$("title").html("2137!");
+	}
+	else if(zdjecie == "img/papiez.jpg"){
+		zdjecie = "img/chlebek.jpg";
+		$("title").html("chlebek!");
+	}
+	else if(zdjecie == "img/chlebek.jpg"){
+		zdjecie = "img/ten.jpg";
+		$("title").html("nice zdjęcie!");
+	}
+	else if(zdjecie == "img/ten.jpg"){
+		zdjecie = "img/jara.jpg";
+		$("title").html("ale się jara!");
+	}
+	else if(zdjecie == "img/jara.jpg"){
+		zdjecie = "img/tatra.jpg";
+		$("title").html("nie pić mnie tu!");
+	}
 	else{
-		zdjecie = "img/jajo.jpg";
-		$("title").html("Uwaga, Jajo!");
+		zdjecie = "img/dis.jpg";
+		$("title").html("Dis!");
 	}
 	$(".i1").attr("src", zdjecie);
 }
