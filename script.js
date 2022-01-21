@@ -21,13 +21,17 @@ function zmien(){
 		zdjecie = "img/reksio.png";
 		$("title").html("łu matku!");
 	}
+	else if (zdjecie == "img/dziad.png"){
+		zdjecie = "img/opona.jpg";
+		$("title").html("O Opona!");
+	}
 	else if (zdjecie == "img/reksio.png"){
 		zdjecie = "img/herbata.png";
 		$("title").html("Ave Herbata!");
 	}
 	else if(zdjecie == "img/herbata.png"){
-		zdjecie = "img/opona.jpg";
-		$("title").html("O Opona!");
+		zdjecie = "img/dziad.png";
+		$("title").html("dziad ufolud");
 	}
 	else if(zdjecie == "img/opona.jpg"){
 		zdjecie = "img/papiez.jpg";
